@@ -1,0 +1,39 @@
+/* .texto{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 500px;
+    min-width: 0;
+    min-height: 100px;
+    overflow: auto;
+    margin: 0 auto 50px auto;
+    padding: 10px 5px;
+    border: 5px solid black;
+
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid .coluna{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 30px;
+    float: left;
+}
+
+/* UNIDADE DE MEDIDAS
+EM -> Se baseia no pai ex: pai: 50px  filho: 0.5em(25px)
+REM -> se baseia no root(HTML)
+VW -> viewport do navegador(largura)
+VH -> viewport do navegador(altura)*/
+

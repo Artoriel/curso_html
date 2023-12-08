@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    background-color: red;
+    height: 500px;
+    align-items: flex-start; /*eixo horizontal*/
+    justify-content: space-between;  /*eixo vertical*/
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    background-color: yellow;
+    margin: 10px;
+    width: 100%;
+}

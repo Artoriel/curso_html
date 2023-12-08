@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>Meu formulário</p>
+        <p>
+        <label for="nome"> Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="seu nome" required>
+        </p>
+        <p>
+            <label for="dev"> Sou um dev:</label>
+                <input type="checkbox" id="dev" name="dev" checked value="sim">
+         </p>
+         
+         <p>Gênero: <br>
+            <label for="Feminino"> Feminino</label>
+                <input type="radio" id="feminino" name="genero"value="feminino"><br>
+            <label for="Masculino"> Masculino</label>
+                <input type="radio" id="Masculino" name="genero"value="Masculino">
+         </p>
+         <p>
+            <label for="date"> Data:</label><br>
+                <input type="date" id="nome" name="date" required>
+        </p>
+        <p>
+            <label for="datetime"> Data:</label><br>
+                <input type="datetime" id="datetime" name="datetime" required value="2020-04-21T 20:00">
+        </p>
+        <p>
+            <label for="time"> Data:</label><br>
+                <input type="time" id="time" name="time" required>
+        </p>
+        <p>
+            <label for="email"> Seu e-mail</label><br>
+                <input type="email" id="email" name="email" placeholder="email@email.com">
+        </p>
+        <p>
+            <label for="file"></label><br>
+                <input type="file" id="file" name="file" accept=".png">
+        </p>
+        <p>
+            <label for="number">Digite um número</label><br>
+                <input type="number" id="file" name="number" min="0" max="50">
+        </p>
+        <p>
+            <label for="password">Senha</label><br>
+                <input type="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="url">URL:</label><br>
+                <input type="url" id="url" name="url">
+        </p>
+        <p>
+            <label for="search">Busca</label><br>
+                <input type="search" id="search" name="search">
+        </p>
+
+        <p>
+            <label for="textarea">textarea:</label><br>
+            <textarea name="textarea" id="textarea">
+                opa
+
+            </textarea>
+               
+        </p>
+
+        <p>
+            <label for="select">Selecione uma opção:</label><br>
+            <select id="select" name="select">
+                <optgroup label="Grupo 1"></optgroup>
+                    <option value="1" label="Valor 1"></option>
+                    <option value="2" label="Valor 2"></option>
+                    <option value="3" label="Valor 3"></option>
+                    <option value="4" label="Valor 4"></option>
+                </optgroup>
+            </select>
+        </p>
+
+
+
+
+
+
+        <p>
+            <button type="submite">Enviar</button>
+            <button type="reset">Resetar</button>
+        </p>
+       </form>
+</section>
+</body>
+</html>
